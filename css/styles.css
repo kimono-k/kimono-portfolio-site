@@ -1,0 +1,117 @@
+body {
+  margin: 0; /* Remove bs from user agent stylesheet */
+  text-align: center;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(
+    #c9ebff,
+    #abb5ff,
+    #7475b6,
+    #459092,
+    #000000
+  );
+}
+
+h1 {
+  font-size: 5.625rem; /* 5.625 x 16px (rem) == 16px = 100% = 1em (inherited from body) */
+  margin: 50px auto 0 auto;
+  font-family: "Titillium Web";
+}
+
+h2 {
+  font-family: "Titillium Web";
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Titillium Web";
+}
+
+hr {
+}
+
+.creativity-text {
+  color: #ed953e;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.last-cloud {
+  width: 350px;
+  height: 350px;
+}
+
+.icon-circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  position: relative;
+}
+
+.icon-circle-foundations {
+  border-radius: 200px;
+}
+
+.white-text {
+  color: white;
+}
+
+/* Typewriter animation */
+.line-1 {
+  position: relative;
+  top: 10px;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 25px;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 0.5s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 4.5em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
