@@ -1,5 +1,7 @@
 * {
-  overflow-x: hidden;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -msbox-sizing: border-box;
 }
 
 html {
@@ -7,6 +9,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   margin: 0; /* Remove bs from user agent stylesheet */
   text-align: center;
   color: #000000;
