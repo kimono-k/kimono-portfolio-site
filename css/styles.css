@@ -18,6 +18,19 @@ h1 {
   font-family: "Titillium Web";
 }
 
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  h1 {
+    margin: 82px auto 0 auto;
+  }
+
+  img.icon-circle-foundations {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+  }
+}
+
 h2 {
   font-family: "Titillium Web";
   font-weight: normal;
