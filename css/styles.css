@@ -31,6 +31,11 @@ h1 {
   .bottom-cloud {
     top: 449px;
   }
+
+  .div-programming-skills-node-text {
+    position: relative;
+    top: 0px;
+  }
 }
 
 h2 {
