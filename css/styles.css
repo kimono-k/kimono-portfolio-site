@@ -1,8 +1,13 @@
+@media (max-width: 767px) {
+  * {
+    margin-top: 0px;
+    overflow-x: hidden;
+  }
+}
+
 html,
 body {
   scroll-behavior: smooth;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 body {
