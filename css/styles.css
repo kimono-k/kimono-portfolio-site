@@ -2,7 +2,6 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -msbox-sizing: border-box;
-  width: 100%;
 }
 
 html {
@@ -21,7 +20,7 @@ body {
     #459092,
     #000000
   );
-  overflow-x: hidden;
+  width: 100%;
 }
 
 h1 {
