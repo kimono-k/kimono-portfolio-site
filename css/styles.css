@@ -29,7 +29,7 @@ h1 {
   }
 
   img.icon-circle-foundations {
-    width: 100%;
+    width: 25%;
     float: left;
     margin-right: 30px;
   }
@@ -53,6 +53,10 @@ p {
   line-height: 2;
 }
 
+.bg-light {
+  background-color: #ed953e !important;
+}
+
 hr {
   border: dotted #ed953e 6px;
   border-bottom: none;
@@ -74,35 +78,8 @@ a:hover {
   color: purple;
 }
 
-/* Navigation bar */
-/* Style the navigation bar */
-.navbar {
-  width: 100%;
-  background-color: #ffffff;
-  overflow: auto;
-  opacity: 0.7;
-  position: fixed;
-  z-index: 2;
-}
-
-/* Navbar links */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: #000000;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  background-color: #ed953e;
-}
-
-/* Current/active navbar link */
-.active {
-  background-color: #ed953e;
+.creativity-text {
+  color: #ed953e;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
@@ -114,9 +91,6 @@ a:hover {
 }
 
 /* END NAVBAR */
-.creativity-text {
-  color: #ed953e;
-}
 
 /**
 * Contact button styles
