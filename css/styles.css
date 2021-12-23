@@ -31,11 +31,6 @@ h1 {
   .bottom-cloud {
     top: 449px;
   }
-
-  div.div-programming-skills-node-text {
-    position: relative;
-    top: -20px;
-  }
 }
 
 h2 {
@@ -200,9 +195,17 @@ a:hover {
   margin-right: 30px;
 }
 
-.div-programming-skills-node-text {
+div.div-programming-skills-node-text {
   position: relative;
-  top: 40px;
+  top: -20px;
+}
+
+/* Desktop node text */
+@media screen and (min-width: 1024px) {
+  div.div-programming-skills-node-text {
+    position: relative;
+    top: 40px;
+  }
 }
 
 .icon-circle {
