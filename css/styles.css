@@ -28,11 +28,19 @@ h1 {
     margin: 82px auto 0 auto;
   }
 
-  img.icon-circle-foundations {
+  .top-cloud {
+    visibility: hidden;
+  }
+
+  .bottom-cloud {
+    top: 449px;
+  }
+
+  /* img.icon-circle-foundations {
     width: 25%;
     float: left;
     margin-right: 30px;
-  }
+  } */
 }
 
 h2 {
@@ -81,16 +89,6 @@ a:hover {
 .creativity-text {
   color: #ed953e;
 }
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-
-/* END NAVBAR */
 
 /**
 * Contact button styles
@@ -202,9 +200,14 @@ a:hover {
 }
 
 .icon-circle-foundations {
-  width: 300px;
+  width: 250px;
   float: left; /* Left right effect */
   margin-right: 30px;
+}
+
+.div-programming-skills-node-text {
+  position: relative;
+  top: 40px;
 }
 
 .icon-circle {
