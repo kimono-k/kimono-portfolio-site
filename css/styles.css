@@ -1,6 +1,7 @@
 body {
   margin: 0; /* Remove bs from user agent stylesheet */
   text-align: center;
+  color: #000000;
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   background-image: linear-gradient(
     #c9ebff,
@@ -20,13 +21,40 @@ h1 {
 h2 {
   font-family: "Titillium Web";
   font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.font-size-title {
+  font-size: 45px;
 }
 
 h3 {
   font-family: "Titillium Web";
 }
 
+p {
+  line-height: 2;
+}
+
 hr {
+  border: dotted #ed953e 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: black;
+  font-family: "Titillium Web";
+  text-decoration: none;
+}
+
+.link-margin-footer {
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: purple;
 }
 
 /* Navigation bar */
@@ -36,6 +64,8 @@ hr {
   background-color: #ffffff;
   overflow: auto;
   opacity: 0.7;
+  position: fixed;
+  z-index: 2;
 }
 
 /* Navbar links */
@@ -67,9 +97,60 @@ hr {
 }
 
 /* END NAVBAR */
-
 .creativity-text {
   color: #ed953e;
+}
+
+/**
+* Contact button styles
+*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-image: linear-gradient(#f7da6c, #faaa00);
+  border: none;
+  color: #000000;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 34px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-image: linear-gradient(180deg, #f7da6c, #faaa00);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .top-container {
@@ -81,27 +162,58 @@ hr {
 }
 
 .bottom-container {
+  background-image: linear-gradient(#f7da6c, #faaa00);
+  color: black;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 }
 
 .pro {
   text-decoration: underline;
 }
 
+.intro {
+  width: 30%;
+  margin: 20px auto 0px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #0000000;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .last-cloud {
   width: 350px;
   height: 350px;
+}
+
+.icon-circle-foundations {
+  width: 300px;
+  float: left; /* Left right effect */
+  margin-right: 30px;
 }
 
 .icon-circle {
@@ -111,8 +223,14 @@ hr {
   position: relative;
 }
 
-.icon-circle-foundations {
-  width: 400px;
+.img-float-left {
+  float: left; /* Left right effect */
+  margin-right: 30px;
+}
+
+.img-float-right {
+  float: right;
+  margin-left: 30px;
 }
 
 .white-text {
@@ -130,7 +248,7 @@ hr {
   white-space: nowrap;
   overflow: hidden;
   font-size: 25px;
-  transform: translateY(-50%);
+  transform: translateY(-25%);
 }
 
 /* Animation */

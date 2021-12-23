@@ -17,10 +17,10 @@
   </head>
   <body>
     <nav class="navbar">
-      <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Kimono</a>
-      <a href="#"><i class="fa fa-fw fa-search"></i> About me</a>
-      <a href="#"><i class="fa fa-fw fa-envelope"></i> Skills</a>
-      <a href="#"><i class="fa fa-fw fa-user"></i> Contact</a>
+      <a class="active" href="#">Kimono</a>
+      <a href="#about-me">About me</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <!-- div = content division, content in boxes/groups -->
@@ -42,20 +42,20 @@
     <div class="middle-container sexy-linear-gradients">
       <div class="profile">
         <!-- Profile pic -->
-        <h2>About me</h2>
+        <h2 id="about-me" class="font-size-title">About me.</h2>
         <img
           class="icon-circle"
           src="images/kimono-soundcloud.jpg"
           alt="Kimono's pic"
         />
-        <p>
+        <p class="intro">
           Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna.
           Non auctor, montes nulla distinctio.
         </p>
       </div>
       <hr />
       <div class="skills">
-        <h2>My Skills.</h2>
+        <h2 id="skills" class="font-size-title">My Skills.</h2>
         <div class="skill-row white-text">
           <img
             class="icon-circle-foundations"
@@ -71,8 +71,12 @@
           </p>
         </div>
         <div class="skill-row white-text">
-          <img class="icon-circle" src="images/react.gif" alt="" />
-          <h3>React</h3>
+          <img
+            class="icon-circle img-float-right"
+            src="images/react.gif"
+            alt=""
+          />
+          <h3 id="#contact">React</h3>
           <p>
             Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
             bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
@@ -80,7 +84,11 @@
           </p>
         </div>
         <div class="skill-row white-text">
-          <img class="icon-circle" src="images/python.png" alt="" />
+          <img
+            class="icon-circle img-float-left"
+            src="images/python.png"
+            alt=""
+          />
           <h3>Python</h3>
           <p>
             Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
@@ -89,7 +97,11 @@
           </p>
         </div>
         <div class="skill-row white-text">
-          <img class="icon-circle" src="images/node.gif" alt="" />
+          <img
+            class="icon-circle img-float-right"
+            src="images/node.gif"
+            alt=""
+          />
           <h3>Node + Express</h3>
           <p>
             Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
@@ -99,22 +111,37 @@
         </div>
       </div>
       <hr />
+
       <div class="contact-me white-text">
-        <h2>Get In Touch</h2>
+        <h2 id="contact" class="font-size-title">Contact</h2>
         <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p>
+        <p class="contact-message">
           Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
           tellus donec dui, ornare erat.
         </p>
-        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        <button class="button">
+          <a
+            style="text-decoration: none; color: #000000;"
+            href="mailto:kevinnarain94@gmail.com"
+            ><span>Contact Me</span></a
+          >
+        </button>
       </div>
     </div>
 
-    <div class="bottom-container sexy-linear-gradients">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p>© Kevin Narain.</p>
+    <div class="bottom-container sexy-linear-gradient">
+      <a class="footer-link link-margin-footer" href="https://www.linkedin.com/"
+        >LinkedIn</a
+      >
+      <a class="footer-link link-margin-footer" href="https://twitter.com/"
+        >Twitter</a
+      >
+      <a
+        class="footer-link link-margin-footer"
+        href="https://www.appbrewery.co/"
+        >Website</a
+      >
+      <p class="copyright">© Kevin Narain.</p>
     </div>
   </body>
 </html>
