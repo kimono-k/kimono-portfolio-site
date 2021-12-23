@@ -157,8 +157,15 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
+  width: 80%;
   margin: 20px auto 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  p.intro {
+    width: 30%;
+    margin: 20px auto 0px;
+  }
 }
 
 .contact-message {
