@@ -208,6 +208,15 @@ div.div-programming-skills-node-text {
   }
 }
 
+img {
+  transition: all 0.5s;
+  z-index: 2;
+}
+
+img:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
 .icon-circle {
   width: 200px;
   border-radius: 200px;
