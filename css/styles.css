@@ -32,9 +32,9 @@ h1 {
     top: 449px;
   }
 
-  .div-programming-skills-node-text {
+  div.div-programming-skills-node-text {
     position: relative;
-    top: 0px;
+    top: -20px;
   }
 }
 
@@ -195,7 +195,7 @@ a:hover {
 }
 
 .icon-circle-foundations {
-  width: 250px;
+  width: 200px;
   float: left; /* Left right effect */
   margin-right: 30px;
 }
@@ -206,7 +206,6 @@ a:hover {
 }
 
 .icon-circle {
-  height: 200px;
   width: 200px;
   border-radius: 200px;
   position: relative;
