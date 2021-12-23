@@ -28,10 +28,6 @@ h1 {
     margin: 82px auto 0 auto;
   }
 
-  .top-cloud {
-    visibility: hidden;
-  }
-
   .bottom-cloud {
     top: 449px;
   }
